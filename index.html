@@ -1,33 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SyntaxWear - Ecommerce</title>
-  <link rel="stylesheet" href="/css/base.css">
-  <link rel="stylesheet" href="/css/layout.css">
-</head>
-<body>
-<header class="site-header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyntaxWear - Ecommerce</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/variables.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/components/header.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="logo">
+        <a href="/">
+          <img
+            src="./images/logo/logo.svg"
+            alt="SyntaxWear - Tenis e Sneakers Online"
+            title="SyntaxWear"
+            class="logo"
+          />
+        </a>
+      </h1>
 
-</header>
+      <nav class="nav-center" aria-label="Categorias Principais">
+        <ul class="nav-list">
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Outlet</a></li>
+        </ul>
+      </nav>
 
-<main>
-  <section class="hero-section">
+      <nav class="nav-right" aria-label="Acesso Rápido">
+        <ul class="nav-list">
+          <li><a href="#">Nossas Lojas</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li>
+            <a href="#" aria-label="Minha Conta"
+              ><img
+                src="./images/icons/user.svg"
+                alt="Minha Conta"
+                width="28"
+                height="28"
+            /></a>
+          </li>
+          <li>
+            <a href="#" aria-label="Ajuda"
+              ><img
+                src="./images/icons/help.svg"
+                alt="Ajuda"
+                width="28"
+                height="28"
+            /></a>
+          </li>
+          <li>
+            <a href="#" aria-label="Carrinho"
+              ><img
+                src="./images/icons/bag.svg"
+                alt="Carrinho"
+                width="28"
+                height="28"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  </section>
+    <main>
+      <section class="hero-section"></section>
 
-  <section class="categories-section">
+      <section class="categories-section"></section>
 
-  </section>
+      <section class="featured-products-section"></section>
+    </main>
 
-  <section class="featured-products-section">
-
-  </section>
-</main>
-
-<footer class="site-footer">
-
-</footer>
-</body>
+    <footer class="site-footer"></footer>
+  </body>
 </html>
