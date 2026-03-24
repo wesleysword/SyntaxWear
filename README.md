@@ -56,15 +56,6 @@ Os estilos CSS são modularizados em componentes, facilitando a manutenção e o
 
 ## Como Utilizar
 
-Para visualizar a página, basta abrir o arquivo `index.html` em qualquer navegador de internet.
+Para visualizar a página, basta acessar o link a baixo.
 
-```bash
-# Exemplo no Windows
-start index.html
-
-# Exemplo no macOS
-open index.html
-
-# Exemplo no Linux
-xdg-open index.html
-```
+https://wesleysword.github.io/SyntaxWear/
